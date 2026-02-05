@@ -31,7 +31,6 @@ static PyObject *vml_check_variable(PyObject *self, PyObject *args)
         Py_RETURN_TRUE;
     }
 
-
     int diff = PyObject_RichCompareBool(reference_curr, reference_prev, Py_NE);
     if (diff == 1){
         Py_RETURN_TRUE;

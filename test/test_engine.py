@@ -1,7 +1,7 @@
 import sys
 import os
 
-vml_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "vml"))
+vml_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src", "vml"))
 if vml_dir not in sys.path:
     sys.path.insert(0, vml_dir)
 
